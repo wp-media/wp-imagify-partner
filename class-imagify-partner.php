@@ -456,7 +456,7 @@ if ( ! class_exists( 'Imagify_Partner' ) ) :
 		 */
 		protected function get_download_url() {
 			$infos = $this->get_imagify_infos();
-			return 'https://www.screenfeed.fr/imagify-1.6.14-alpha1.zip';// ////! empty( $infos->download_link ) ? $infos->download_link : '';
+			return ! empty( $infos->download_link ) ? $infos->download_link : '';
 		}
 
 		/**
