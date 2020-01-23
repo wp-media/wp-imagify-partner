@@ -20,5 +20,18 @@
 	"support": {
 		"issues": "https://github.com/wp-media/wp-imagify-partner/issues",
 		"source": "https://github.com/wp-media/wp-imagify-partner"
+	},
+	"require": {
+        "php": ">=5.6"
+	},
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+		"phpcompatibility/phpcompatibility-wp": "^2.0",
+		"wp-coding-standards/wpcs": "^2"
+	},
+	"autoload": {
+		"psr-4": {
+			"WPMedia\\ImagifyPartner\\": ""
+		}
 	}
 }
