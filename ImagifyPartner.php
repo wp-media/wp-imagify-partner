@@ -1,13 +1,7 @@
 <?php
-/**
- * Tool allowing 3rd party WordPress plugins to handle partnership with Imagify.
- *
- * @package WPMedia\ImagifyPartner
- */
-
 namespace WPMedia\ImagifyPartner;
 
-if ( class_exists( 'WPMedia\ImagifyPartner\ImagifyPartner' ) || class_exists( 'Imagify_Partner' ) ) {
+if ( class_exists( 'Imagify_Partner' ) ) {
 	return;
 }
 
